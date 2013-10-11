@@ -1,0 +1,24 @@
+ # REVIEW CHAPTER
+ SYMBOL											PURPOSE
+ puts													gives output
+ print													prints line
+ " "													denotes strings
+ #														comment, ignored by program
+ +, -, /, *, %, <, >, <=, >=					math functions
+ %s or %d											format string, way to insert variable into string. follows string.
+ #{ }  												string interpolation, insert variable operations into string.
+ \n													Escape sequence new line
+ \t														Escape sequence tab
+ <<PARAGRAPH								block input
+ MY_HEREDOC								lists
+ .chomp()											trims whitespace off user input
+ ARGV												argument variable, gets argument from user on cmd line, all caps means its constant
+ $0													file name
+ STDIN.gets										standard input, gets user input explicitly
+ def													defines methods close with end keyword
+ .read()
+ .write()
+ .open()
+ .readline()
+ .close()
+ .seek(0, IO::SEEK_SET)
